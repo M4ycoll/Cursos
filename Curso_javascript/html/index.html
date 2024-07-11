@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JS</title>
+</head>
+<body>
+    <h1>Hola mundo</h1>
+    <hr> <!-- salto de linea con una linea en medio-->
+    <br> <!-- salto de linea vacio-->
+    <br>
+    <hr>
+    <!-------------Lista------------->
+    <h3>Listado de frutas</h3>     
+    <!--ol lista ordenada-->
+    <!--ul lista desordenada-->
+    <ol>
+        
+        <li>Manzana
+            <ul>
+                <li>Roja</li>
+                <li>Verde</li>
+            </ul>
+        </li>
+        <li>Naranja</li>
+        <li>Pera</li>
+        <li>Sandia</li>
+    </ol>
+    <hr>
+    <!-------------imagenes------------>
+    <h2>Imagenes en html</h2>
+    <h3>Perro</h3>
+    <img src="imagenes/perro.jpg" alt="imagen de un perro" title="foto de perro" width="300" height="200">
+    <h3>Gato</h3>
+    <img src="imagenes/gato.jpg" alt="imagen de un gato" title="foto de gato" width="300" height="200">
+    <h3>Loro</h3>
+    <img src="imagenes/loro.jpeg" alt="imagen de un loro" title="foto de loro" width="300" height="200">
+    <hr>
+    <!-------------tablas------------->
+    <h3>Tablas</h3>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Pais</th>
+        </tr>
+        
+        <tr>
+            <td>Maycoll</td>
+            <td>Moreno</td>
+            <td>Honduras</td>
+        </tr>
+        <tr>
+            <td>Kevin</td>
+            <td colspan="2">Lopez</td>
+        
+        </tr>
+    </table>
+    
+    <hr>
+    <!-------------Formulario------------->
+    <h3>Formulario</h3>
+
+    <form action="">
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre">    
+        </p>
+        <p> 
+            <label for="descripcion">Descripción</label>
+            <textarea name="descripcion" id="" cols="20" rows="3"></textarea>
+        </p>
+        <input type="radio" name="genero" value="hombre">Hombre <br>
+        <input type="radio" name="genero" value="mujer">Mujer <br>
+        <input type="radio" name="genero" value="nada">Nada <br>
+        <br>
+
+        <select name="genero" id="">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="nada">Nada</option>
+        </select>
+
+        <input type="submit" value="Enviar formulario"/>
+    </form>
+
+
+</body>
+</html>
